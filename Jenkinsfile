@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    stage{
+    stages{
         stage('Build Docker Image'){
             steps { 
                 sh 'echo "Executando o comando Docker Build"'
